@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import commissionModel from "@/assets/commission-model.png.asset.json";
-import nocapModel from "@/assets/nocap-model.png.asset.json";
+import commissionModel from "@/assets/commission-model.png";
+import nocapModel from "@/assets/nocap-model.png";
 
 type Row = {
   scenario: string;
@@ -246,7 +246,7 @@ function MoneyFlowDiagram() {
           </span>
         </figcaption>
         <img
-          src={commissionModel.url}
+          src={commissionModel}
           alt="Commission model: you pay premium to intermediaries (Policybazaar, Ditto, banks, agents) who earn commission from insurance providers. The more you buy, the bigger their commission."
           className="mx-auto block h-auto w-full transition-transform duration-500 ease-out group-hover:-translate-y-1"
           loading="lazy"
@@ -262,7 +262,7 @@ function MoneyFlowDiagram() {
           </span>
         </figcaption>
         <img
-          src={nocapModel.url}
+          src={nocapModel}
           alt="NoCap Fiduciary model: you pay a small fee directly to NoCap, get unbiased advice, and buy the policy directly from the insurer. No commission flows from insurers to NoCap."
           className="mx-auto block h-auto w-full transition-transform duration-500 ease-out group-hover:-translate-y-1"
           loading="lazy"

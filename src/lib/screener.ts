@@ -2,16 +2,16 @@
 // Generates demo quotes across insurers and platforms, plus insurer
 // credential data. All numbers are illustrative estimates based on
 // publicly disclosed IRDAI ranges — not live quotes.
-import licLogo from "@/assets/insurers/lic.jpeg.asset.json";
-import hdfcLogo from "@/assets/insurers/hdfc.jpeg.asset.json";
-import iciciLogo from "@/assets/insurers/iciciprulife.jpeg.asset.json";
-import sbiLogo from "@/assets/insurers/sbi.jpeg.asset.json";
-import tataLogo from "@/assets/insurers/tataaia.jpeg.asset.json";
-import bajajLogo from "@/assets/insurers/bajajallianz.jpeg.asset.json";
-import kotakLogo from "@/assets/insurers/kotaklife.jpeg.asset.json";
-import axismaxLogo from "@/assets/insurers/axismax.jpeg.asset.json";
-import adityaLogo from "@/assets/insurers/aditya.jpeg.asset.json";
-import pnbLogo from "@/assets/insurers/pnbmet.jpeg.asset.json";
+import licLogo from "@/assets/insurers/lic.jpeg";
+import hdfcLogo from "@/assets/insurers/hdfc.jpeg";
+import iciciLogo from "@/assets/insurers/iciciprulife.jpeg";
+import sbiLogo from "@/assets/insurers/sbi.jpeg";
+import tataLogo from "@/assets/insurers/tataaia.jpeg";
+import bajajLogo from "@/assets/insurers/bajajallianz.jpeg";
+import kotakLogo from "@/assets/insurers/kotaklife.jpeg";
+import axismaxLogo from "@/assets/insurers/axismax.jpeg";
+import adityaLogo from "@/assets/insurers/aditya.jpeg";
+import pnbLogo from "@/assets/insurers/pnbmet.jpeg";
 
 export type PlanType = "term" | "term_rop" | "ulip" | "endowment" | "whole_life";
 export type PayFrequency = "yearly" | "monthly";
@@ -103,7 +103,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "lic", name: "LIC of India", short: "LIC",
     brandBg: "#FFD400", brandFg: "#0A2B5C",
-    logoUrl: licLogo.url,
+    logoUrl: licLogo,
     founded: 1956, baseTerm: 14500,
     planTypes: ["term", "term_rop", "endowment", "whole_life", "ulip"],
     credentials: {
@@ -118,7 +118,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "hdfc", name: "HDFC Life", short: "HDFC",
     brandBg: "#ED232A", brandFg: "#ffffff",
-    logoUrl: hdfcLogo.url,
+    logoUrl: hdfcLogo,
     founded: 2000, baseTerm: 11800,
     planTypes: ["term", "term_rop", "ulip", "endowment", "whole_life"],
     credentials: {
@@ -133,7 +133,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "iciciprulife", name: "ICICI Prudential Life", short: "ICICI Pru",
     brandBg: "#F58220", brandFg: "#ffffff",
-    logoUrl: iciciLogo.url,
+    logoUrl: iciciLogo,
     founded: 2001, baseTerm: 12400,
     planTypes: ["term", "term_rop", "ulip", "endowment"],
     credentials: {
@@ -148,7 +148,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "sbilife", name: "SBI Life", short: "SBI",
     brandBg: "#5F259F", brandFg: "#ffffff",
-    logoUrl: sbiLogo.url,
+    logoUrl: sbiLogo,
     founded: 2001, baseTerm: 13100,
     planTypes: ["term", "term_rop", "ulip", "endowment", "whole_life"],
     credentials: {
@@ -163,7 +163,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "tataaia", name: "Tata AIA Life", short: "Tata AIA",
     brandBg: "#486FBF", brandFg: "#ffffff",
-    logoUrl: tataLogo.url,
+    logoUrl: tataLogo,
     founded: 2001, baseTerm: 11600,
     planTypes: ["term", "term_rop", "ulip", "endowment", "whole_life"],
     credentials: {
@@ -178,7 +178,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "bajajallianz", name: "Bajaj Allianz Life", short: "Bajaj",
     brandBg: "#00548E", brandFg: "#ffffff",
-    logoUrl: bajajLogo.url,
+    logoUrl: bajajLogo,
     founded: 2001, baseTerm: 12000,
     planTypes: ["term", "term_rop", "ulip", "endowment"],
     credentials: {
@@ -193,7 +193,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "kotaklife", name: "Kotak Life", short: "Kotak",
     brandBg: "#EE1C25", brandFg: "#ffffff",
-    logoUrl: kotakLogo.url,
+    logoUrl: kotakLogo,
     founded: 2001, baseTerm: 11500,
     planTypes: ["term", "term_rop", "ulip", "endowment"],
     credentials: {
@@ -208,7 +208,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "axismax", name: "Axis Max Life", short: "Axis Max",
     brandBg: "#8B1A1A", brandFg: "#ffffff",
-    logoUrl: axismaxLogo.url,
+    logoUrl: axismaxLogo,
     founded: 2000, baseTerm: 11100,
     planTypes: ["term", "term_rop", "ulip", "endowment"],
     credentials: {
@@ -223,7 +223,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "aditya", name: "Aditya Birla Sun Life", short: "ABSLI",
     brandBg: "#C8102E", brandFg: "#ffffff",
-    logoUrl: adityaLogo.url,
+    logoUrl: adityaLogo,
     founded: 2000, baseTerm: 12800,
     planTypes: ["term", "term_rop", "ulip", "endowment"],
     credentials: {
@@ -238,7 +238,7 @@ export const INSURERS: Insurer[] = [
   {
     id: "pnbmet", name: "PNB MetLife", short: "PNB Met",
     brandBg: "#004B87", brandFg: "#ffffff",
-    logoUrl: pnbLogo.url,
+    logoUrl: pnbLogo,
     founded: 2001, baseTerm: 12200,
     planTypes: ["term", "term_rop", "ulip", "endowment"],
     credentials: {

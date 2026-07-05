@@ -1,4 +1,4 @@
-import twoPillarsImg from "@/assets/two-pillars.png.asset.json";
+import twoPillarsImg from "@/assets/two-pillars.png";
 
 export function Products() {
   return (
@@ -17,7 +17,7 @@ export function Products() {
 
         <div className="animate-fade-in">
           <img
-            src={twoPillarsImg.url}
+            src={twoPillarsImg}
             alt="Two pillars of financial security. Pillar one — when tough times come, a safety net: Term Life Insurance, Health Super Top-up, Emergency Fund, Pension & Retirement (NPS), Employee Provident Fund (EPF). Pillar two — for life goals, long-term low-cost low-risk investing: Government Saving Schemes (PPF, SSY, NSC), Index Funds (Indian & Global), ELSS tax-saving mutual funds, Gold & Silver ETFs, Debt Instruments (Govt. and Corporate Bonds)."
             className="mx-auto block h-auto w-full max-w-3xl animate-float"
             loading="lazy"
