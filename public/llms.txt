@@ -1,0 +1,15 @@
+# NoCap Fiduciary
+
+> Fee-only, fiduciary, AI-native financial advisory built for young India.
+
+NoCap is a SEBI-aligned Registered Investment Adviser platform. We do not take commissions from insurers, AMCs, or brokers — clients pay a small transparent fee, and the AI-native advisor is legally bound to act in the client's best interest across insurance, savings, retirement, and long-term wealth.
+
+## Pages
+
+- [Home](/): Overview of NoCap's fee-only approach, life-goals framework, financial foundation pillars, and AI-native advisory.
+
+## Optional
+
+- [Approach](/#approach): Why fee-only fiduciary advice beats commission-driven agents.
+- [Foundation](/#foundation): Products we advise on — Term Life, Health, PPF, EPF, NPS, ELSS, Index Funds, Bonds, Sukanya Samriddhi, NSC.
+- [AI](/#ai): Why people open up to AI over human agents for money decisions.
